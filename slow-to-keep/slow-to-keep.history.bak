@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1709017102" tv-usec="95770" name="transpose">
+    <NoteDiffCommand midi-source="2141">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="68" new="80" id="186503"/>
+        <Change property="NoteNumber" old="72" new="84" id="186504"/>
+        <Change property="NoteNumber" old="72" new="84" id="186507"/>
+        <Change property="NoteNumber" old="68" new="80" id="186508"/>
+        <Change property="NoteNumber" old="64" new="76" id="186511"/>
+        <Change property="NoteNumber" old="60" new="72" id="186512"/>
+        <Change property="NoteNumber" old="60" new="72" id="186515"/>
+        <Change property="NoteNumber" old="64" new="76" id="186516"/>
+        <Change property="NoteNumber" old="60" new="72" id="186519"/>
+        <Change property="NoteNumber" old="64" new="76" id="186520"/>
+        <Change property="NoteNumber" old="60" new="72" id="186523"/>
+        <Change property="NoteNumber" old="64" new="76" id="186524"/>
+        <Change property="NoteNumber" old="64" new="76" id="186527"/>
+        <Change property="NoteNumber" old="67" new="79" id="186528"/>
+        <Change property="NoteNumber" old="68" new="80" id="186531"/>
+        <Change property="NoteNumber" old="65" new="77" id="186532"/>
+        <Change property="NoteNumber" old="68" new="80" id="186535"/>
+        <Change property="NoteNumber" old="65" new="77" id="186536"/>
+        <Change property="NoteNumber" old="68" new="80" id="186539"/>
+        <Change property="NoteNumber" old="65" new="77" id="186540"/>
+        <Change property="NoteNumber" old="68" new="80" id="186543"/>
+        <Change property="NoteNumber" old="72" new="84" id="186544"/>
+        <Change property="NoteNumber" old="68" new="80" id="186547"/>
+        <Change property="NoteNumber" old="72" new="84" id="186548"/>
+        <Change property="NoteNumber" old="64" new="76" id="186551"/>
+        <Change property="NoteNumber" old="60" new="72" id="186552"/>
+        <Change property="NoteNumber" old="60" new="72" id="186555"/>
+        <Change property="NoteNumber" old="64" new="76" id="186556"/>
+        <Change property="NoteNumber" old="64" new="76" id="186559"/>
+        <Change property="NoteNumber" old="60" new="72" id="186560"/>
+        <Change property="NoteNumber" old="60" new="72" id="186563"/>
+        <Change property="NoteNumber" old="64" new="76" id="186564"/>
+        <Change property="NoteNumber" old="64" new="76" id="186567"/>
+        <Change property="NoteNumber" old="67" new="79" id="186568"/>
+        <Change property="NoteNumber" old="68" new="80" id="186571"/>
+        <Change property="NoteNumber" old="65" new="77" id="186572"/>
+        <Change property="NoteNumber" old="68" new="80" id="186575"/>
+        <Change property="NoteNumber" old="65" new="77" id="186576"/>
+        <Change property="NoteNumber" old="68" new="80" id="186579"/>
+        <Change property="NoteNumber" old="65" new="77" id="186580"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709017635" tv-usec="231200" name="set loop range from region">
+    <MementoCommand obj-id="2129" type-name="ARDOUR::Location">
+      <Location id="2129" name="Loop" start="546456" end="914595" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+      <Location id="2129" name="Loop" start="1650873" end="2387152" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018057" tv-usec="690944" name="capture">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2237"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018116" tv-usec="703644" name="delete objects">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="2237"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018194" tv-usec="7333" name="capture">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2262"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018215" tv-usec="616620" name="Region start trim">
+    <StatefulDiffCommand obj-id="2262" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <start from="0" to="109290"/>
+        <length from="526336" to="417046"/>
+        <position from="1541583" to="1650873"/>
+        <beat from="67.000017006802722" to="71.749960317460307"/>
+        <start-beats from="0" to="4.749943310657585"/>
+        <length-beats from="22.875520833333333" to="18.125582010582022"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018220" tv-usec="708843" name="Region start trim">
+    <StatefulDiffCommand obj-id="2262" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <start from="109290" to="115039"/>
+        <length from="417046" to="411297"/>
+        <position from="1650873" to="1656622"/>
+        <beat from="71.749960317460307" to="71.999822373393798"/>
+        <start-beats from="4.749943310657585" to="4.999805366591076"/>
+        <length-beats from="18.125582010582022" to="17.875719954648531"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018227" tv-usec="668447" name="Region end trim">
+    <StatefulDiffCommand obj-id="2262" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="411297" to="368143"/>
+        <length-beats from="17.875719954648531" to="16.000168178382467"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018235" tv-usec="275251" name="duplicate region">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2278"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018274" tv-usec="796085" name="duplicate region">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2284"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018321" tv-usec="179609" name="Region start trim">
+    <StatefulDiffCommand obj-id="2157" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <start from="109291" to="115044"/>
+        <length from="742031" to="736278"/>
+        <position from="178317" to="184070"/>
+        <beat from="7.7499829931972792" to="8.0000188964474681"/>
+        <start-beats from="4.749986772486773" to="5.0000226757369619"/>
+        <length-beats from="32.250024565381707" to="31.999988662131518"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018330" tv-usec="235666" name="delete objects">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="2284"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018336" tv-usec="776234" name="duplicate region">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2296"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018403" tv-usec="222414" name="region copy">
+    <StatefulDiffCommand obj-id="2082" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2302"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018462" tv-usec="69710" name="region drag">
+    <StatefulDiffCommand obj-id="750" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <position from="2387152" to="2755297"/>
+        <beat from="103.74999244142101" to="119.75024754346181"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1344" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <position from="2392898" to="2761043"/>
+        <beat from="103.99972411186697" to="119.99997921390776"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1347" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <position from="2576967" to="2945112"/>
+        <beat from="111.99969954648525" to="127.99995464852604"/>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018501" tv-usec="957778" name="region copy">
+    <StatefulDiffCommand obj-id="855" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2315"/>
+          <Add id="2318"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018560" tv-usec="69022" name="transpose">
+    <NoteDiffCommand midi-source="2141">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="80" new="68" id="186503"/>
+        <Change property="NoteNumber" old="84" new="72" id="186504"/>
+        <Change property="NoteNumber" old="84" new="72" id="186507"/>
+        <Change property="NoteNumber" old="80" new="68" id="186508"/>
+        <Change property="NoteNumber" old="76" new="64" id="186511"/>
+        <Change property="NoteNumber" old="72" new="60" id="186512"/>
+        <Change property="NoteNumber" old="72" new="60" id="186515"/>
+        <Change property="NoteNumber" old="76" new="64" id="186516"/>
+        <Change property="NoteNumber" old="72" new="60" id="186519"/>
+        <Change property="NoteNumber" old="76" new="64" id="186520"/>
+        <Change property="NoteNumber" old="72" new="60" id="186523"/>
+        <Change property="NoteNumber" old="76" new="64" id="186524"/>
+        <Change property="NoteNumber" old="76" new="64" id="186527"/>
+        <Change property="NoteNumber" old="79" new="67" id="186528"/>
+        <Change property="NoteNumber" old="80" new="68" id="186531"/>
+        <Change property="NoteNumber" old="77" new="65" id="186532"/>
+        <Change property="NoteNumber" old="80" new="68" id="186535"/>
+        <Change property="NoteNumber" old="77" new="65" id="186536"/>
+        <Change property="NoteNumber" old="80" new="68" id="186539"/>
+        <Change property="NoteNumber" old="77" new="65" id="186540"/>
+        <Change property="NoteNumber" old="80" new="68" id="186543"/>
+        <Change property="NoteNumber" old="84" new="72" id="186544"/>
+        <Change property="NoteNumber" old="80" new="68" id="186547"/>
+        <Change property="NoteNumber" old="84" new="72" id="186548"/>
+        <Change property="NoteNumber" old="76" new="64" id="186551"/>
+        <Change property="NoteNumber" old="72" new="60" id="186552"/>
+        <Change property="NoteNumber" old="72" new="60" id="186555"/>
+        <Change property="NoteNumber" old="76" new="64" id="186556"/>
+        <Change property="NoteNumber" old="76" new="64" id="186559"/>
+        <Change property="NoteNumber" old="72" new="60" id="186560"/>
+        <Change property="NoteNumber" old="72" new="60" id="186563"/>
+        <Change property="NoteNumber" old="76" new="64" id="186564"/>
+        <Change property="NoteNumber" old="76" new="64" id="186567"/>
+        <Change property="NoteNumber" old="79" new="67" id="186568"/>
+        <Change property="NoteNumber" old="80" new="68" id="186571"/>
+        <Change property="NoteNumber" old="77" new="65" id="186572"/>
+        <Change property="NoteNumber" old="80" new="68" id="186575"/>
+        <Change property="NoteNumber" old="77" new="65" id="186576"/>
+        <Change property="NoteNumber" old="80" new="68" id="186579"/>
+        <Change property="NoteNumber" old="77" new="65" id="186580"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018688" tv-usec="399460" name="move marker">
+    <MementoCommand obj-id="52" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="252" name="session" start="0" end="2761043" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1709009541"/>
+        <Location id="2129" name="Loop" start="1650873" end="2387152" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+      </Locations>
+      <Locations>
+        <Location id="252" name="session" start="178317" end="2761043" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1709009541"/>
+        <Location id="2129" name="Loop" start="1650873" end="2387152" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709018700" tv-usec="385432" name="move marker">
+    <MementoCommand obj-id="52" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="252" name="session" start="178317" end="2761043" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1709009541"/>
+        <Location id="2129" name="Loop" start="1650873" end="2387152" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+      </Locations>
+      <Locations>
+        <Location id="252" name="session" start="178317" end="3152191" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1709009541"/>
+        <Location id="2129" name="Loop" start="1650873" end="2387152" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1709016544"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1709189436" tv-usec="878459" name="transpose">
+    <NoteDiffCommand midi-source="2141">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="68" new="80" id="186503"/>
+        <Change property="NoteNumber" old="72" new="84" id="186504"/>
+        <Change property="NoteNumber" old="72" new="84" id="186507"/>
+        <Change property="NoteNumber" old="68" new="80" id="186508"/>
+        <Change property="NoteNumber" old="64" new="76" id="186511"/>
+        <Change property="NoteNumber" old="60" new="72" id="186512"/>
+        <Change property="NoteNumber" old="60" new="72" id="186515"/>
+        <Change property="NoteNumber" old="64" new="76" id="186516"/>
+        <Change property="NoteNumber" old="60" new="72" id="186519"/>
+        <Change property="NoteNumber" old="64" new="76" id="186520"/>
+        <Change property="NoteNumber" old="60" new="72" id="186523"/>
+        <Change property="NoteNumber" old="64" new="76" id="186524"/>
+        <Change property="NoteNumber" old="64" new="76" id="186527"/>
+        <Change property="NoteNumber" old="67" new="79" id="186528"/>
+        <Change property="NoteNumber" old="68" new="80" id="186531"/>
+        <Change property="NoteNumber" old="65" new="77" id="186532"/>
+        <Change property="NoteNumber" old="68" new="80" id="186535"/>
+        <Change property="NoteNumber" old="65" new="77" id="186536"/>
+        <Change property="NoteNumber" old="68" new="80" id="186539"/>
+        <Change property="NoteNumber" old="65" new="77" id="186540"/>
+        <Change property="NoteNumber" old="68" new="80" id="186543"/>
+        <Change property="NoteNumber" old="72" new="84" id="186544"/>
+        <Change property="NoteNumber" old="68" new="80" id="186547"/>
+        <Change property="NoteNumber" old="72" new="84" id="186548"/>
+        <Change property="NoteNumber" old="64" new="76" id="186551"/>
+        <Change property="NoteNumber" old="60" new="72" id="186552"/>
+        <Change property="NoteNumber" old="60" new="72" id="186555"/>
+        <Change property="NoteNumber" old="64" new="76" id="186556"/>
+        <Change property="NoteNumber" old="64" new="76" id="186559"/>
+        <Change property="NoteNumber" old="60" new="72" id="186560"/>
+        <Change property="NoteNumber" old="60" new="72" id="186563"/>
+        <Change property="NoteNumber" old="64" new="76" id="186564"/>
+        <Change property="NoteNumber" old="64" new="76" id="186567"/>
+        <Change property="NoteNumber" old="67" new="79" id="186568"/>
+        <Change property="NoteNumber" old="68" new="80" id="186571"/>
+        <Change property="NoteNumber" old="65" new="77" id="186572"/>
+        <Change property="NoteNumber" old="68" new="80" id="186575"/>
+        <Change property="NoteNumber" old="65" new="77" id="186576"/>
+        <Change property="NoteNumber" old="68" new="80" id="186579"/>
+        <Change property="NoteNumber" old="65" new="77" id="186580"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4201" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="2157"/>
+          </Regions>
+          <MIDINotes region-id="261">
+            <note note-id="4851"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4201" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="2157"/>
+          </Regions>
+          <MIDINotes region-id="261">
+            <note note-id="4851"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>
