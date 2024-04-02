@@ -9,7 +9,6 @@
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="64"/>
       <MIDINotes region-id="261">
         <note note-id="4851"/>
       </MIDINotes>

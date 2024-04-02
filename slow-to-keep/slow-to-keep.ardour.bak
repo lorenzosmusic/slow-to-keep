@@ -13456,7 +13456,7 @@ original vocals on the first playlist</Comment>
       <Window name="PM-6758-7069" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-10400-19648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-10400-19648" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-5421-108116" visible="0" x-off="636" y-off="0" x-size="1144" y-size="582" custom-ui="1"/>
+      <Window name="P-5421-108116" visible="0" x-off="114" y-off="0" x-size="1144" y-size="582" custom-ui="1"/>
       <Window name="PM-5421-108116" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
